@@ -11,6 +11,11 @@
 |
 */
 
+
+Route::get('/how', function (Request $request) {
+    return "1000";
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
